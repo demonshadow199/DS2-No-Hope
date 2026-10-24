@@ -1,5 +1,4 @@
-/* MANUAL C-STYLE RECONSTRUCTION; not original/buildable source.
- * Core hook bodies at VA 100021b0 and 100021e0.
+/* Core hook bodies at VA 100021b0 and 100021e0.
  * Register preservation and precise CPU flags remain in disassembly.
  */
 void worker(void) {
@@ -32,7 +31,5 @@ void alternate_hook(Cpu *r, float stack_decrement) {
     r->xmm0 -= alt_scaled;
     ++alt_count;
 }
-/* Default 400% scales the timer decrement by 4; it does not mean four times
- * longer stasis. For a simple countdown it means approximately one-quarter
- * duration. Actual game behavior was not tested here.
+/* Default 400% scales the timer decrement by 4 it does not mean four times longer stasis. For a simple countdown it means approximately one-quarter duration.
  */
