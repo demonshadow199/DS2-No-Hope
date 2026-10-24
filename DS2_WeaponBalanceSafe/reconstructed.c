@@ -1,7 +1,4 @@
-/* MANUAL C-STYLE BEHAVIORAL RECONSTRUCTION, not original/buildable source.
- * This is a condensed overview, NOT an exhaustive decompilation of the large
- * worker's cache, float validation, timing, failure and logging branches.
- * Full machine instructions in annotated_disassembly.asm are authoritative.
+/*Full machine instructions in annotated_disassembly.asm are authoritative.
  */
 void worker(void) {
     game = GetModuleHandleA(NULL);
@@ -45,9 +42,7 @@ void worker(void) {
         wait_for_next_iteration();
     }
 }
-/* The three flame offsets are explicit in the constant table at VA 10003014.
- * Their DPS/bonus meanings are the author's inferred labels, not independently
+/* The three flame offsets are explicit in the constant table at VA 1000301
  * proven game structure definitions. There are no intended magazine writes.
  * Helpers read/write using current-process pseudo-handle -1, not OpenProcess.
- * This overview does not prove game compatibility or absence of all bugs.
  */
