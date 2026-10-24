@@ -1,5 +1,4 @@
-/* MANUAL C-STYLE RECONSTRUCTION FOR INSPECTION, not original/buildable C.
- * Helper names are analyst supplied. Assembly is authoritative.
+/* 
  * DLL VA 10001038: startup worker; 100011d8: log writer.
  */
 void worker(void) {
@@ -26,5 +25,4 @@ void inventory_hook(Cpu *cpu) {
 }
 /* All five DLL entry points disable thread notifications on process attach,
  * create a local worker thread, close its handle and return TRUE.
- * No detach restoration was identified here.
  */
