@@ -1,0 +1,94 @@
+!This program cannot be run in DOS mode.$
+.text
+`.rdata
+@.data
+.reloc
+PPPh>
+USWV
+Vh$2
+SVUP
+SVUP
+SjFhA!
+D$@SVh
+SPh{ 
+Pj@j
+D$ Pj@j
+Pj@j
+D$4P
+D$4P
+D^_[]
+T$$9
+L$,)
+D$ P
+t4;,$u7
+T$4f
++D$(=0u
+\L$8
+D$4P
+SWVP
+Sh$2
+PWVS
+urzpf
+0123456789ABCDEF
+PLAYER OBJECT CHANGE: old/new
+CONFIG: damage percent / stasis cost
+StasisCost
+MultiplierPercent
+Kinesis
+RequireAim
+user32.dll
+DS2_KinesisHealth_CEStyle_v2.ini
+DS2_KinesisHealth_CEStyle_v2.log
+GetAsyncKeyState
+Damage
+CONFIG: damage_enabled / kinesis_enabled
+Enabled
+HotkeyVK
+COOLDOWN FINISHED: restore skipped; object not safe/current.
+KINESIS: stasis spent on F press.
+ERROR: required module/API missing; no patches.
+KINESIS: depleted stasis to -1; started 30-second cooldown.
+SKIP: no fresh validated player health.
+SKIP: F pressed without aiming.
+SKIP: cooldown active.
+SKIP: player object changed before depletion write.
+SKIP: player object changed before charge write.
+DAMAGE MATCH: at least one player-only damage adjustment executed.
+DS2 Kinesis/Health CE-Style v2: experimental, not runtime tested.
+ERROR: original hook signatures not found or patch install failed.
+TEST MODE: damage hook DISABLED and NOT patched.
+COOLDOWN CANCELED: player identity changed.
+COOLDOWN CANCELED: health identity changed.
+HOOK INSTALLED: player damage at +B74DDB.
+HOOK INSTALLED: health capture at +483BC9.
+COOLDOWN CANCELED: current stasis no longer -1.
+COOLDOWN FINISHED: stasis restored to 1.
+SKIP: stasis already disabled (-1).
+CloseHandle
+CreateFileA
+CreateThread
+DisableThreadLibraryCalls
+FlushInstructionCache
+GetModuleFileNameA
+GetModuleHandleA
+GetPrivateProfileIntA
+GetProcAddress
+GetTickCount
+ReadProcessMemory
+Sleep
+VirtualProtect
+WriteFile
+WriteProcessMemory
+KERNEL32.dll
+0%040I0W0]0c0~0
+1,11161<1O1T1g1o1t1
+2%262=2Y2x2
+3$3=3
+3W4n4
+4b5l5r5
+516Q6c6w6
+6&7U7
+8H8\8j8
+8#9)9?9F9
+9!:L:V:z:
+;";V;r;x;

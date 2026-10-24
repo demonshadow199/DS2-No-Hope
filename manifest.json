@@ -1,0 +1,289 @@
+[
+  {
+    "file": "DS2_InventoryHalf.asi",
+    "size": 3584,
+    "sha256": "797d24ce24b5bbfca230b218e1e2679407feba64dcafa487b6b460de4ea79fee",
+    "entry_va": "0x10001000",
+    "sections": [
+      {
+        "name": ".text",
+        "vsize": 563,
+        "rva": 4096,
+        "size": 1024,
+        "offset": 1024
+      },
+      {
+        "name": ".rdata",
+        "vsize": 735,
+        "rva": 8192,
+        "size": 1024,
+        "offset": 2048
+      },
+      {
+        "name": ".reloc",
+        "vsize": 60,
+        "rva": 12288,
+        "size": 512,
+        "offset": 3072
+      }
+    ],
+    "imports": {
+      "0x100021fc": "kernel32.dll!CloseHandle",
+      "0x10002200": "kernel32.dll!CreateFileA",
+      "0x10002204": "kernel32.dll!CreateThread",
+      "0x10002208": "kernel32.dll!DisableThreadLibraryCalls",
+      "0x1000220c": "kernel32.dll!FlushInstructionCache",
+      "0x10002210": "kernel32.dll!GetModuleHandleA",
+      "0x10002214": "kernel32.dll!Sleep",
+      "0x10002218": "kernel32.dll!VirtualAlloc",
+      "0x1000221c": "kernel32.dll!VirtualProtect",
+      "0x10002220": "kernel32.dll!WriteFile"
+    },
+    "certificate_directory": [
+      0,
+      0
+    ],
+    "tls_directory": [
+      0,
+      0
+    ],
+    "overlay_bytes": 0
+  },
+  {
+    "file": "DS2_KinesisHealth_CEStyle_v2.asi",
+    "size": 7168,
+    "sha256": "c1dbafa1610155aa82ead7bb94ffde0751d983f0f9f55fe2c93eb17d415c19f6",
+    "entry_va": "0x10001000",
+    "sections": [
+      {
+        "name": ".text",
+        "vsize": 3002,
+        "rva": 4096,
+        "size": 3072,
+        "offset": 1024
+      },
+      {
+        "name": ".rdata",
+        "vsize": 1773,
+        "rva": 8192,
+        "size": 2048,
+        "offset": 4096
+      },
+      {
+        "name": ".data",
+        "vsize": 1068,
+        "rva": 12288,
+        "size": 512,
+        "offset": 6144
+      },
+      {
+        "name": ".reloc",
+        "vsize": 276,
+        "rva": 16384,
+        "size": 512,
+        "offset": 6656
+      }
+    ],
+    "imports": {
+      "0x1000258c": "KERNEL32.dll!CloseHandle",
+      "0x10002590": "KERNEL32.dll!CreateFileA",
+      "0x10002594": "KERNEL32.dll!CreateThread",
+      "0x10002598": "KERNEL32.dll!DisableThreadLibraryCalls",
+      "0x1000259c": "KERNEL32.dll!FlushInstructionCache",
+      "0x100025a0": "KERNEL32.dll!GetModuleFileNameA",
+      "0x100025a4": "KERNEL32.dll!GetModuleHandleA",
+      "0x100025a8": "KERNEL32.dll!GetPrivateProfileIntA",
+      "0x100025ac": "KERNEL32.dll!GetProcAddress",
+      "0x100025b0": "KERNEL32.dll!GetTickCount",
+      "0x100025b4": "KERNEL32.dll!ReadProcessMemory",
+      "0x100025b8": "KERNEL32.dll!Sleep",
+      "0x100025bc": "KERNEL32.dll!VirtualProtect",
+      "0x100025c0": "KERNEL32.dll!WriteFile",
+      "0x100025c4": "KERNEL32.dll!WriteProcessMemory"
+    },
+    "certificate_directory": [
+      0,
+      0
+    ],
+    "tls_directory": [
+      0,
+      0
+    ],
+    "overlay_bytes": 0
+  },
+  {
+    "file": "DS2_StasisDuration.asi",
+    "size": 8704,
+    "sha256": "8ae64b26898f9945b847d40aced6e0e25725c4b79ab4c477f9c58d9d700dc501",
+    "entry_va": "0x10001000",
+    "sections": [
+      {
+        "name": ".text",
+        "vsize": 4640,
+        "rva": 4096,
+        "size": 5120,
+        "offset": 1024
+      },
+      {
+        "name": ".rdata",
+        "vsize": 1437,
+        "rva": 12288,
+        "size": 1536,
+        "offset": 6144
+      },
+      {
+        "name": ".data",
+        "vsize": 1088,
+        "rva": 16384,
+        "size": 512,
+        "offset": 7680
+      },
+      {
+        "name": ".reloc",
+        "vsize": 360,
+        "rva": 20480,
+        "size": 512,
+        "offset": 8192
+      }
+    ],
+    "imports": {
+      "0x10003498": "KERNEL32.dll!CloseHandle",
+      "0x1000349c": "KERNEL32.dll!CreateFileA",
+      "0x100034a0": "KERNEL32.dll!CreateThread",
+      "0x100034a4": "KERNEL32.dll!DisableThreadLibraryCalls",
+      "0x100034a8": "KERNEL32.dll!FlushInstructionCache",
+      "0x100034ac": "KERNEL32.dll!GetModuleFileNameA",
+      "0x100034b0": "KERNEL32.dll!GetModuleHandleA",
+      "0x100034b4": "KERNEL32.dll!GetPrivateProfileIntA",
+      "0x100034b8": "KERNEL32.dll!Sleep",
+      "0x100034bc": "KERNEL32.dll!VirtualProtect",
+      "0x100034c0": "KERNEL32.dll!WriteFile"
+    },
+    "certificate_directory": [
+      0,
+      0
+    ],
+    "tls_directory": [
+      0,
+      0
+    ],
+    "overlay_bytes": 0
+  },
+  {
+    "file": "DS2_TwoWeaponSlots_ReorderSafe.asi",
+    "size": 5120,
+    "sha256": "8e194a1b1ad572aa7fe6e92956b8297a794c36111bf693401b072da56aabe971",
+    "entry_va": "0x10001000",
+    "sections": [
+      {
+        "name": ".text",
+        "vsize": 2248,
+        "rva": 4096,
+        "size": 2560,
+        "offset": 1024
+      },
+      {
+        "name": ".rdata",
+        "vsize": 755,
+        "rva": 8192,
+        "size": 1024,
+        "offset": 3584
+      },
+      {
+        "name": ".data",
+        "vsize": 4,
+        "rva": 12288,
+        "size": 0,
+        "offset": 0
+      },
+      {
+        "name": ".reloc",
+        "vsize": 80,
+        "rva": 16384,
+        "size": 512,
+        "offset": 4608
+      }
+    ],
+    "imports": {
+      "0x10002224": "kernel32.dll!CloseHandle",
+      "0x10002228": "kernel32.dll!CreateFileA",
+      "0x1000222c": "kernel32.dll!CreateThread",
+      "0x10002230": "kernel32.dll!DisableThreadLibraryCalls",
+      "0x10002234": "kernel32.dll!FlushInstructionCache",
+      "0x10002238": "kernel32.dll!GetModuleHandleA",
+      "0x1000223c": "kernel32.dll!Sleep",
+      "0x10002240": "kernel32.dll!VirtualProtect",
+      "0x10002244": "kernel32.dll!WriteFile"
+    },
+    "certificate_directory": [
+      0,
+      0
+    ],
+    "tls_directory": [
+      0,
+      0
+    ],
+    "overlay_bytes": 0
+  },
+  {
+    "file": "DS2_WeaponBalanceSafe.asi",
+    "size": 12288,
+    "sha256": "ba736002d6535f82f00fc77d146f18f4b19d1e429b6dd34b678a5ae9b5e8f2d5",
+    "entry_va": "0x10001000",
+    "sections": [
+      {
+        "name": ".text",
+        "vsize": 7609,
+        "rva": 4096,
+        "size": 7680,
+        "offset": 1024
+      },
+      {
+        "name": ".rdata",
+        "vsize": 1727,
+        "rva": 12288,
+        "size": 2048,
+        "offset": 8704
+      },
+      {
+        "name": ".data",
+        "vsize": 8409,
+        "rva": 16384,
+        "size": 512,
+        "offset": 10752
+      },
+      {
+        "name": ".reloc",
+        "vsize": 604,
+        "rva": 28672,
+        "size": 1024,
+        "offset": 11264
+      }
+    ],
+    "imports": {
+      "0x10003574": "KERNEL32.dll!CloseHandle",
+      "0x10003578": "KERNEL32.dll!CreateFileA",
+      "0x1000357c": "KERNEL32.dll!CreateThread",
+      "0x10003580": "KERNEL32.dll!DisableThreadLibraryCalls",
+      "0x10003584": "KERNEL32.dll!FlushInstructionCache",
+      "0x10003588": "KERNEL32.dll!GetModuleFileNameA",
+      "0x1000358c": "KERNEL32.dll!GetModuleHandleA",
+      "0x10003590": "KERNEL32.dll!GetPrivateProfileIntA",
+      "0x10003594": "KERNEL32.dll!GetTickCount",
+      "0x10003598": "KERNEL32.dll!ReadProcessMemory",
+      "0x1000359c": "KERNEL32.dll!Sleep",
+      "0x100035a0": "KERNEL32.dll!VirtualProtect",
+      "0x100035a4": "KERNEL32.dll!WriteFile",
+      "0x100035a8": "KERNEL32.dll!WriteProcessMemory"
+    },
+    "certificate_directory": [
+      0,
+      0
+    ],
+    "tls_directory": [
+      0,
+      0
+    ],
+    "overlay_bytes": 0
+  }
+]

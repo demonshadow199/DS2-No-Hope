@@ -1,0 +1,80 @@
+!This program cannot be run in DOS mode.$
+.text
+`.rdata
+@.data
+.reloc
+USWV
+on.if
+on.l
+AQh@B
+on.if
+on.l
+QjFhv3
+QjNhD2
+Qj'h
+INI:
+Pj@j
+Pj&h
+Pj@j
+Pj3h
+Qjgh
+RSQP
+Qj'h
+^_[]
+PjFh
+Pj'hN3
+PjKh
+Pjlho1
+USWV
+8GKu
+w7fffff.
+^_[]
+USWV
+ffff.
+RWQP
+^_[]
+RVQP
+0123456789ABCDEF
+DS2_StasisDurati
+#<TimerDrainPercent
+StasisDuration
+IncludeAlternateBranch
+CONFIG: main module base / CE RVA
+CONFIG: TimerDrainPercent / IncludeAlternateBranch =
+ALT last decrement (original/multiplied IEEE754 bits)
+CE last decrement (original/multiplied IEEE754 bits)
+COUNTERS: CE / alternate (total)
+TEST: fire Stasis and observe a frozen enemy for at least 10 seconds; counters are logged every 5 seconds.
+ERROR: CE-branch byte signature mismatch; no hook installed. Check for another ASI or active CE hook.
+Only install this ASI, not the v1 ASI or the original CE StasisTimerDecHook.
+ERROR: Could not resolve game module.
+ERROR: alternate branch installation failed; CE branch remains installed.
+ERROR: alternate-branch byte signature mismatch; no hooks installed.
+ERROR: CE-branch installation failed.
+DS2 Stasis Duration v2: instrumented port of StasisTimerDecHook.CEA.
+WARN: invalid rate; reverting to 400.
+HOOK INSTALLED: alternate timer branch (+7871CE).
+HOOK INSTALLED: CE branch (+787202).
+CloseHandle
+CreateFileA
+CreateThread
+DisableThreadLibraryCalls
+FlushInstructionCache
+GetModuleFileNameA
+GetModuleHandleA
+GetPrivateProfileIntA
+Sleep
+VirtualProtect
+WriteFile
+KERNEL32.dll
+0(0?0^0j0p0v0
+1 1%1<1D1K1W1`1i1p1}1
+2.272>2C2M2R2X2p2
+3 373W3s3y3
+6Q6a6x6
+7J7Z7q7
+8*818C8_8e8
+9<9L9h9n9
+:&:+:M:[:`:f:s:}:
+"040F0X0j0|0
+1 1-1@1\1b1

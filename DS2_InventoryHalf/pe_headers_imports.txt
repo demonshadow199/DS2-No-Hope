@@ -1,0 +1,129 @@
+
+extracted/DS2_InventoryHalf.asi:     file format pei-i386
+extracted/DS2_InventoryHalf.asi
+architecture: i386, flags 0x0000012f:
+HAS_RELOC, EXEC_P, HAS_LINENO, HAS_DEBUG, HAS_LOCALS, D_PAGED
+start address 0x10001000
+
+Characteristics 0x2102
+	executable
+	32 bit words
+	DLL
+
+Time/Date		Thu Oct 15 01:01:06 2026
+Magic			010b	(PE32)
+MajorLinkerVersion	14
+MinorLinkerVersion	0
+SizeOfCode		00000400
+SizeOfInitializedData	00000600
+SizeOfUninitializedData	00000000
+AddressOfEntryPoint	00001000
+BaseOfCode		00001000
+BaseOfData		00000000
+ImageBase		10000000
+SectionAlignment	00001000
+FileAlignment		00000200
+MajorOSystemVersion	6
+MinorOSystemVersion	0
+MajorImageVersion	0
+MinorImageVersion	0
+MajorSubsystemVersion	6
+MinorSubsystemVersion	0
+Win32Version		00000000
+SizeOfImage		00004000
+SizeOfHeaders		00000400
+CheckSum		00000000
+Subsystem		00000002	(Windows GUI)
+DllCharacteristics	00000140
+					DYNAMIC_BASE
+					NX_COMPAT
+SizeOfStackReserve	00100000
+SizeOfStackCommit	00001000
+SizeOfHeapReserve	00100000
+SizeOfHeapCommit	00001000
+LoaderFlags		00000000
+NumberOfRvaAndSizes	00000010
+
+The Data Directory
+Entry 0 00000000 00000000 Export Directory [.edata (or where ever we found it)]
+Entry 1 000021a8 00000028 Import Directory [parts of .idata]
+Entry 2 00000000 00000000 Resource Directory [.rsrc]
+Entry 3 00000000 00000000 Exception Directory [.pdata]
+Entry 4 00000000 00000000 Security Directory
+Entry 5 00003000 0000003c Base Relocation Directory [.reloc]
+Entry 6 00000000 00000000 Debug Directory
+Entry 7 00000000 00000000 Description Directory
+Entry 8 00000000 00000000 Special Directory
+Entry 9 00000000 00000000 Thread Storage Directory [.tls]
+Entry a 00000000 00000000 Load Configuration Directory
+Entry b 00000000 00000000 Bound Import Directory
+Entry c 000021fc 0000002c Import Address Table Directory
+Entry d 00000000 00000000 Delay Import Directory
+Entry e 00000000 00000000 CLR Runtime Header
+Entry f 00000000 00000000 Reserved
+
+There is an import table in .rdata at 0x100021a8
+
+The Import Tables (interpreted .rdata section contents)
+ vma:            Hint    Time      Forward  DLL       First
+                 Table   Stamp     Chain    Name      Thunk
+ 000021a8	000021d0 00000000 00000000 000022d2 000021fc
+
+	DLL Name: kernel32.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	2228	    0  CloseHandle
+	2236	    0  CreateFileA
+	2244	    0  CreateThread
+	2254	    0  DisableThreadLibraryCalls
+	2270	    0  FlushInstructionCache
+	2288	    0  GetModuleHandleA
+	229c	    0  Sleep
+	22a4	    0  VirtualAlloc
+	22b4	    0  VirtualProtect
+	22c6	    0  WriteFile
+
+ 000021bc	00000000 00000000 00000000 00000000 00000000
+
+
+PE File Base Relocations (interpreted .reloc section contents)
+
+Virtual Address: 00001000 Chunk size 60 (0x3c) Number of fixups 26
+	reloc    0 offset    d [100d] HIGHLOW
+	reloc    1 offset   17 [1017] HIGHLOW
+	reloc    2 offset   1f [101f] HIGHLOW
+	reloc    3 offset   2e [102e] HIGHLOW
+	reloc    4 offset   43 [1043] HIGHLOW
+	reloc    5 offset   5b [105b] HIGHLOW
+	reloc    6 offset   6a [106a] HIGHLOW
+	reloc    7 offset   81 [1081] HIGHLOW
+	reloc    8 offset   9a [109a] HIGHLOW
+	reloc    9 offset   b3 [10b3] HIGHLOW
+	reloc   10 offset   ce [10ce] HIGHLOW
+	reloc   11 offset   e1 [10e1] HIGHLOW
+	reloc   12 offset   eb [10eb] HIGHLOW
+	reloc   13 offset   fd [10fd] HIGHLOW
+	reloc   14 offset  138 [1138] HIGHLOW
+	reloc   15 offset  146 [1146] HIGHLOW
+	reloc   16 offset  190 [1190] HIGHLOW
+	reloc   17 offset  1a1 [11a1] HIGHLOW
+	reloc   18 offset  1a6 [11a6] HIGHLOW
+	reloc   19 offset  1b2 [11b2] HIGHLOW
+	reloc   20 offset  1be [11be] HIGHLOW
+	reloc   21 offset  1e6 [11e6] HIGHLOW
+	reloc   22 offset  202 [1202] HIGHLOW
+	reloc   23 offset  208 [1208] HIGHLOW
+	reloc   24 offset  221 [1221] HIGHLOW
+	reloc   25 offset  228 [1228] HIGHLOW
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000233  10001000  10001000  00000400  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .rdata        000002df  10002000  10002000  00000800  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  2 .reloc        0000003c  10003000  10003000  00000c00  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+SYMBOL TABLE:
+no symbols
+
+

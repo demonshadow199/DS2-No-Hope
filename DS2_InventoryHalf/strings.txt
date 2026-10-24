@@ -1,0 +1,31 @@
+!This program cannot be run in DOS mode.$
+.text
+`.rdata
+@.reloc
+PPPh8
+USWV
+Pj@j
+^_[]
+SWVP
+PQWVS
+ERROR: Could not find Dead Space 2 main module.
+OK: Halved suit inventory capacity at +AB4FB7 (floor(original / 2)).
+The retained suit capacity and saved-game field remain unchanged.
+ERROR: Unable to install memory detour.
+ERROR: Hook bytes did not appear within 150 seconds.
+Unsupported EXE build or another mod changed the target.
+DS2_InventoryHalf.log
+CloseHandle
+CreateFileA
+CreateThread
+DisableThreadLibraryCalls
+FlushInstructionCache
+GetModuleHandleA
+Sleep
+VirtualAlloc
+VirtualProtect
+WriteFile
+kernel32.dll
+0.0C0[0j0
+081F1
+2!2(2

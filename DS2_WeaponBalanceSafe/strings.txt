@@ -1,0 +1,135 @@
+!This program cannot be run in DOS mode.$
+.text
+`.rdata
+@.data
+.reloc
+USWV
+AQhP@
+j-h[1
+jFhv1
+QjIh
+Qj>h
+QjQh?3
+Pj@j
+D$tP
+PjPh
+QjJh
+QjDh
+Qj%h
+^_[]
+Qj8hS4
+T$Lt
+Qj?h
+l$01
+9L$$t+
++D$D
+l$D;l$0
+D$pP
+L$xQPj
+L$tQPj
+D$,=
+D$ P
+t$8j
+D$$P
+D$(P
+L$`Qj
+D$`P
+9D$l
+nD$ f
+T$PUP
+=kin
+&=fla
+tC=pla
+t\=pul
+=lin
+tO=det
+t`=jav
+D$|k
+t$<f
+.D$<
+|$8f
+.D$8
+l$4f
+.D$4
+D$ wC
+D$\P
+D$P9D$
+D$(9D$\
+T$(W
+T$(W
+USWV
+8GKu
+w7fffff.
+^_[]
+RVQP
+USWVP
++sD9
+4$9s
+^_[]
+0123456789ABCDEF
+DS2_WeaponBalanceSafe.in
+eSafe.lo
+Settings: default/global and flamethrower percent
+LineSecondaryPercent
+DetonatorPercent
+FlamethrowerPercent
+JavelinPercent
+GlobalPercent
+PulsePercent
+TimePercent
+BonusDamagePercent
+AltDamagePerSecondPercent
+PlasmaPercent
+FLAME DOT APPLIED: weapon ID / object
+STATS APPLIED: weapon ID / object
+FlamethrowerPartsPerMillion
+FireRate
+Damage
+WEAPON: candidate pointer / sequence
+FlameDOT: Bonus / reserved
+Reload
+FlameDOT
+FlameDOT: DPS / AltDPS
+FLAME DOT OFFSETS: 5F8 / 600
+STATE: capture expired; waiting for fresh game weapon object.
+DS2 Weapon Balance Safe v2; includes flamethrower DOT candidate fields.
+Flamethrower extra DOT writes: ENABLED for candidate fields inferred from dump.
+HOOK INSTALLED: unique weapon-pointer capture; awaiting valid equipped weapon.
+ERROR: main EXE module unavailable.
+ERROR: signature mismatch or module not initialized; no patch installed.
+ERROR: couldn't safely install hook; no patch applied.
+Ammo editing: DISABLED (no magazine writes or extra rounds).
+Expected hook: deadspace2.exe+9B0DE4 (original 8B 91 9C 03 00 00).
+CloseHandle
+CreateFileA
+CreateThread
+DisableThreadLibraryCalls
+FlushInstructionCache
+GetModuleFileNameA
+GetModuleHandleA
+GetPrivateProfileIntA
+GetTickCount
+ReadProcessMemory
+Sleep
+VirtualProtect
+WriteFile
+WriteProcessMemory
+KERNEL32.dll
+u=333?
+0(0?0^0j0p0v0
+1'1/181@1J1R1[1d1n1s1z1
+2$2B2J2O2V2[2y2
+3!3(3-3K3S3X3b3g3
+40484B4^4d4
+565?5F5P5l5r5
+7\7b7
+8 858G8k8|8
+9-9E9N9U9g9
+9	:":(:/:]:
+=5>S>
+?1?@?H?`?h?r?z?
+2E2M2]2t2
+6B7T7f7x7
+8.8@8M8`8|8
+9,:@;
+< =(=0=<=e=

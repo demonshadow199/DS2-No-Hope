@@ -1,0 +1,35 @@
+!This program cannot be run in DOS mode.$
+.text
+`.rdata
+@.data
+.reloc
+USWV
+Pj@j
+Pj@j
+QjThF!
+Qj,h
+^_[]
+Pj@j
+Pj-h
+ERROR: Could not find the game executable.
+OK: Changed weapon-full store comparison from 4 to 2.
+Four physical weapon positions were NOT shrunk.
+Save-load resizing preserves at least four weapon positions.
+Behavior requires a live-game test: rearrangement and third equip.
+ERROR: Weapon-full comparison patch failed.
+ERROR: Expected game code never appeared. Verify old weapon-slot ASIs are removed.
+DS2_TwoWeaponSlots_ReorderSafe.log
+CloseHandle
+CreateFileA
+CreateThread
+DisableThreadLibraryCalls
+FlushInstructionCache
+GetModuleHandleA
+Sleep
+VirtualProtect
+WriteFile
+kernel32.dll
+0"090[0r0
+6"656l6v6
+7!7E7U7q7w7
+898K8U8q8w8
