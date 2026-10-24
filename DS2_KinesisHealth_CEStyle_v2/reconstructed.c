@@ -1,5 +1,4 @@
-/* MANUAL C-STYLE RECONSTRUCTION of principal paths; not original/buildable C.
- * Workers/guards/log formatting condensed; see annotated disassembly for all
+/*  Workers/guards/log formatting condensed; see annotated disassembly for all
  * instructions. Names/types invented for readability, not recovered symbols.
  */
 void worker(void) {
@@ -78,6 +77,5 @@ bool final_stasis_write(byte *obj, float replacement) {
 }
 /* IMPORTANT: guarded_stasis_write above includes all preceding validations;
  * final_stasis_write alone is NOT an adequate replacement implementation.
- * No loop over all keys or typed-text recording was identified. Key queries
- * are for the INI-configured hotkey and optional RMB. Logs record mod events.
+ * Key queries are for the INI-configured hotkey and optional RMB. Logs record mod events.
  */
