@@ -1,5 +1,4 @@
-/* MANUAL C-STYLE RECONSTRUCTION; not original/buildable source.
- * Startup at VA 10001050; resize wrapper at VA 100018a0.
+/* Startup at VA 10001050; resize wrapper at VA 100018a0.
  * Error branches/log formatting are condensed. See complete disassembly.
  */
 void worker(void) {
